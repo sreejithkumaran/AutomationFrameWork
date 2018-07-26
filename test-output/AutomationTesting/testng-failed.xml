@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AutomationTesting]">
+  <test name="Regression(failed)">
+    <classes>
+      <class name="com.TestCases.RegisterUserFlow">
+        <methods>
+          <include name="setup"/>
+          <include name="startReport"/>
+          <include name="RegisterUser"/>
+          <include name="beforeClass"/>
+          <include name="getResult"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.TestCases.RegisterUserFlow -->
+    </classes>
+  </test> <!-- Regression(failed) -->
+</suite> <!-- Failed suite [AutomationTesting] -->

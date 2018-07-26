@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="AutomationTesting" verbose="1" >
+  <test name="Regression" >
+    <classes>
+      <class name="com.TestCases.RegisterUserFlow"/>
+    </classes>
+ </test>
+</suite>
