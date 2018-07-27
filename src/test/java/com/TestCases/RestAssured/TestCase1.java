@@ -10,7 +10,7 @@ import io.restassured.specification.RequestSpecification;
 public class TestCase1 {
 
 
-	//  @Test
+	 @Test
 	public void test01() {
 
 		// Specify the base URL to the RESTful web service  

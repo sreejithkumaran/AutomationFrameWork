@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3729" started-at="2018-07-03T02:15:19Z" finished-at="2018-07-03T02:15:23Z">
+  <suite name="Default suite" duration-ms="7229" started-at="2018-07-26T16:22:32Z" finished-at="2018-07-26T16:22:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3729" started-at="2018-07-03T02:15:19Z" finished-at="2018-07-03T02:15:23Z">
-      <class name="com.TestCases.ExcelTest">
-        <test-method status="PASS" signature="f()[pri:0, instance:com.TestCases.ExcelTest@1a968a59]" name="f" duration-ms="3598" started-at="2018-07-03T07:45:19Z" finished-at="2018-07-03T07:45:23Z">
+    <test name="Default test" duration-ms="7229" started-at="2018-07-26T16:22:32Z" finished-at="2018-07-26T16:22:39Z">
+      <class name="com.TestCases.RestAssured.TestCase1">
+        <test-method status="PASS" signature="test01()[pri:0, instance:com.TestCases.RestAssured.TestCase1@e25b2fe]" name="test01" duration-ms="6394" started-at="2018-07-26T21:52:32Z" finished-at="2018-07-26T21:52:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- com.TestCases.ExcelTest -->
+        </test-method> <!-- test01 -->
+        <test-method status="PASS" signature="test07()[pri:0, instance:com.TestCases.RestAssured.TestCase1@e25b2fe]" name="test07" duration-ms="702" started-at="2018-07-26T21:52:38Z" finished-at="2018-07-26T21:52:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test07 -->
+      </class> <!-- com.TestCases.RestAssured.TestCase1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
